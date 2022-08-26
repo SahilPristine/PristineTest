@@ -13,7 +13,7 @@ page 80000 TestSahil
             {
                 field(Value; rec.Value)
                 {
-                    ApplicationArea = Alll;
+                    ApplicationArea = All;
                 }
             }
         }
