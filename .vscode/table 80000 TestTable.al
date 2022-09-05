@@ -1,45 +1,45 @@
-table 80000 TestTable
-{
-    DataClassification = ToBeClassified;
+// table 80000 TestTable
+// {
+//     DataClassification = ToBeClassified;
 
-    fields
-    {
-        field(1; Value; Text[20])
-        {
-            DataClassification = ToBeClassified;
-            Editable = true;
-        }
-    }
+//     fields
+//     {
+//         field(1; Value; Text[20])
+//         {
+//             DataClassification = ToBeClassified;
+//             Editable = true;
+//         }
+//     }
 
-    keys
-    {
-        // key(Key1; MyField)
-        // {
-        //     Clustered = true;
-        // }
-    }
+//     keys
+//     {
+//         // key(Key1; MyField)
+//         // {
+//         //     Clustered = true;
+//         // }
+//     }
 
-    var
-        myInt: Integer;
+//     var
+//         myInt: Integer;
 
-    trigger OnInsert()
-    begin
+//     trigger OnInsert()
+//     begin
 
-    end;
+//     end;
 
-    trigger OnModify()
-    begin
+//     trigger OnModify()
+//     begin
 
-    end;
+//     end;
 
-    trigger OnDelete()
-    begin
+//     trigger OnDelete()
+//     begin
 
-    end;
+//     end;
 
-    trigger OnRename()
-    begin
+//     trigger OnRename()
+//     begin
 
-    end;
+//     end;
 
-}
+// }
